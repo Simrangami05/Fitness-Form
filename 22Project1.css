@@ -1,0 +1,114 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("packs.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: larger;
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: bolder;
+}
+.left {
+  position: absolute;
+  left: 58px;
+  top: 25px;
+  color: white;
+  /* border: 2px solid red; */
+  display: inline-block;
+}
+.left img {
+  width: 62px;
+  filter: invert(100%);
+  margin: 0px;
+  padding: 2px 50px;
+}
+.left div {
+  text-align: center;
+  font-size: larger;
+  line-height: 0px;
+}
+.mid {
+  /* border: 2px solid aqua; */
+  color: white;
+  display: block;
+  width: 42%;
+  margin: 35px auto;
+  position: sticky;
+}
+.right {
+  position: absolute;
+  right: 30px;
+  top: 35px;
+  /* border: 2px solid pink; */
+  color: white;
+  display: inline-block;
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 13px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: grey;
+  font-family: "Lobster", cursive;
+}
+.btn {
+  margin: 0px 9px;
+  background-color: black;
+  color: white;
+  padding: 4px 14px;
+  /* border: 2px solid grey; */
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: bolder;
+}
+.btn:hover {
+  background-color: rgb(64, 63, 63);
+}
+.container {
+  border: 2px solid white;
+  color: white;
+  margin: 133px 83px;
+  padding: 30px 10px;
+  width: 50%;
+  border-radius: 30px;
+}
+.form-group input {
+  text-align: left;
+  display: block;
+  width: 300px;
+  padding: 5px 10px;
+  margin: 12px auto;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+h1 {
+  text-align: center;
+}
+.container button {
+  display: block;
+  width: 500px;
+  margin: 23px auto;
+}
+.class {
+  color: white;
+  margin: 70px 50px;
+  padding: 1px 70px;
+  display: inline-block;
+  width: 33%;
+  position: absolute;
+  left: 35px;
+  top: 625px;
+}
